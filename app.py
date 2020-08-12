@@ -43,6 +43,6 @@ class TwitterBot:
                     time.sleep(10)
 
 
-user = TwitterBot('@PauloEduTest', 'paulotcc321')
+user = TwitterBot('username', 'password')
 user.login()
 user.follow_tweet('webdev')
