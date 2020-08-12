@@ -11,7 +11,7 @@ class TwitterBot:
     def login(self):
         bot = self.bot
         bot.get('https://twitter.com/')
-        time.sleep(3)
+        time.sleep(5)
         email = bot.find_element_by_name('session[username_or_email]')
         password = bot.find_element_by_name('session[password]')
         email.clear()
@@ -19,13 +19,13 @@ class TwitterBot:
         email.send_keys(self.username)
         password.send_keys(self.password)
         password.send_keys(Keys.RETURN)
-        time.sleep(3)
+        time.sleep(5)
 
     def follow_tweet(self, hashtag):
         bot = self.bot
         bot.get('https://twitter.com/search?q='+hashtag+'&src=typed_query')
         time.sleep(3)
-        for i in range(1,3):
+        for i in range(1, 5):
             bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             time.sleep(3)
             tweets = bot.find_elements_by_partial_link_text('@')
@@ -33,20 +33,16 @@ class TwitterBot:
                      for elem in tweets]
             for link in links:
                 bot.get(link)
-                test = bot.find_elements_by_tag_name('span')
-                test2 = [testt.get_property('Follow')
-                         for testt in test]
-
+                time.sleep(4)
                 try:
-                    # bot.find_element_by_partial_link_text('Follow').click()
-                    # bot.find_element_by_link_text('Follow').click()
+                    bot.find_element_by_xpath('//div[@data-testid="placementTracking"]').click()
                     time.sleep(10)
-                    print('foi')
+                    print(f'follow {link}')
                 except Exception as ex:
+                    print(ex)
                     time.sleep(10)
-                    print('erro')
 
 
-user = TwitterBot('', '')
+user = TwitterBot('@PauloEduTest', 'paulotcc321')
 user.login()
-user.follow_tweet('python')
+user.follow_tweet('webdev')
