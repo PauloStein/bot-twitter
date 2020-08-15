@@ -52,4 +52,4 @@ class TwitterBot:
 
 user = TwitterBot('', '')
 user.login()
-user.follow_tweet('seguir')
+user.follow_tweet('follow')
