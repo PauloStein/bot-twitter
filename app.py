@@ -25,24 +25,31 @@ class TwitterBot:
         bot = self.bot
         bot.get('https://twitter.com/search?q='+hashtag+'&src=typed_query')
         time.sleep(3)
-        for i in range(1, 5):
+
+        for i in range(1, 3):
             bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             time.sleep(3)
             tweets = bot.find_elements_by_partial_link_text('@')
             links = [elem.get_attribute('href')
                      for elem in tweets]
+
             for link in links:
                 bot.get(link)
                 time.sleep(4)
                 try:
+                    arquivo = open("links.txt", "a")
                     bot.find_element_by_xpath('//div[@data-testid="placementTracking"]').click()
                     time.sleep(10)
                     print(f'follow {link}')
+                    arquivo.write(link)
+                    arquivo.write("; ")
+                    arquivo.close()
+
                 except Exception as ex:
                     print(ex)
                     time.sleep(10)
 
 
-user = TwitterBot('username', 'password')
+user = TwitterBot('', '')
 user.login()
-user.follow_tweet('webdev')
+user.follow_tweet('seguir')
