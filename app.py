@@ -38,11 +38,28 @@ class TwitterBot:
                 time.sleep(4)
                 try:
                     arquivo = open("links.txt", "a")
-                    bot.find_element_by_xpath('//div[@data-testid="placementTracking"]').click()
-                    time.sleep(10)
+                    # bot.find_element_by_xpath('//div[@data-testid="placementTracking"]').click()
+                    bot.execute_script("""
+                                        let nodeElements = document.querySelectorAll("[data-testid]");
+                                        let unfollowArray = Array.from(nodeElements)
+                                            .filter(btn => btn.getAttribute('data-testid').includes('unfollow'))
+                                            .map(ref => ({ ref, type: 'unfollow' }))
+                                        let followArray = Array.from(nodeElements)
+                                            .filter(btn => btn.getAttribute('data-testid').includes('follow'))
+                                            .filter(btn => !btn.getAttribute('data-testid').includes('unfollow'))
+                                            .map(ref => ({ ref, type: 'follow' }))
+
+                                        let pageButtons = [].concat(unfollowArray, followArray);
+                                        let targetButton = pageButtons[0];
+
+                                        if (targetButton.type === "follow") {
+                                            targetButton.ref.click()}
+                                        """)
+
+                    time.sleep(5)
                     print(f'follow {link}')
                     arquivo.write(link)
-                    arquivo.write("; ")
+                    arquivo.write("\n")
                     arquivo.close()
 
                 except Exception as ex:
@@ -50,6 +67,6 @@ class TwitterBot:
                     time.sleep(10)
 
 
-user = TwitterBot('', '')
+user = TwitterBot('PauloE010102', 'paulotcc321')
 user.login()
 user.follow_tweet('follow')

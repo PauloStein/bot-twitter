@@ -2977,3 +2977,112 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 [Child 1376, MediaDecoderStateMachine #1] WARNING: Decoder=1d175a40400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1597460050535	geckodriver	INFO	Listening on 127.0.0.1:50111
+1597460053578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofileWUPh7s"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597460055503	Marionette	INFO	Listening on port 50119
+1597460055587	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6048, MediaDecoderStateMachine #1] WARNING: Decoder=11d2bb4d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 6048, MediaDecoderStateMachine #1] WARNING: Decoder=11d2bb4d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 6048, MediaDecoderStateMachine #1] WARNING: Decoder=11d2bb4d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 6048, MediaDecoderStateMachine #1] WARNING: Decoder=11d2bb4d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 6048, MediaDecoderStateMachine #1] WARNING: Decoder=11d2bb4d800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1597524939045	geckodriver	INFO	Listening on 127.0.0.1:54131
+1597524942096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilepnweOk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597524944206	Marionette	INFO	Listening on port 54139
+1597524944709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597525640567	geckodriver	INFO	Listening on 127.0.0.1:54325
+1597525643611	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilekMl319"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597525645592	Marionette	INFO	Listening on port 54333
+1597525645621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597525846105	geckodriver	INFO	Listening on 127.0.0.1:54451
+1597525849150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofile5GG40U"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597525851418	Marionette	INFO	Listening on port 54459
+1597525851765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/, line 146: ChunkLoadError: Loading chunk 155 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.02409d15.js)
+JavaScript error: https://twitter.com/, line 146: ChunkLoadError: Loading chunk 251 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.pt.3f1aba65.js)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1597525955896	geckodriver	INFO	Listening on 127.0.0.1:54532
+1597525958939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilejfsbKQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597525960855	Marionette	INFO	Listening on port 54540
+1597525960947	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 4736, MediaDecoderStateMachine #2] WARNING: Decoder=219e5a44c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 4736, MediaDecoderStateMachine #2] WARNING: Decoder=219e5a44c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 4736, MediaDecoderStateMachine #2] WARNING: Decoder=219e5a44c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 4736, MediaDecoderStateMachine #2] WARNING: Decoder=219e5a44c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 4736, MediaDecoderStateMachine #2] WARNING: Decoder=219e5a44c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1597526651792	geckodriver	INFO	Listening on 127.0.0.1:54645
+1597526654839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilesrmcb6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597526656825	Marionette	INFO	Listening on port 54653
+1597526656850	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1597526755540	geckodriver	INFO	Listening on 127.0.0.1:54726
+1597526758575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilekq8Neu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597526760553	Marionette	INFO	Listening on port 54734
+1597526760580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597526776356	geckodriver	INFO	Listening on 127.0.0.1:54783
+1597526779399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofileItdBV1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597526781307	Marionette	INFO	Listening on port 54791
+1597526781413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1597526854564	geckodriver	INFO	Listening on 127.0.0.1:54852
+1597526857606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilekIaKJ0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597526859476	Marionette	INFO	Listening on port 54860
+1597526859613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597527547287	geckodriver	INFO	Listening on 127.0.0.1:54984
+1597527550332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofile6TB2Ha"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597527552244	Marionette	INFO	Listening on port 54992
+1597527552349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597527685988	geckodriver	INFO	Listening on 127.0.0.1:55078
+1597527689031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilewREkG2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597527690956	Marionette	INFO	Listening on port 55086
+1597527691038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597527936131	geckodriver	INFO	Listening on 127.0.0.1:55153
+1597527939174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofileXYa9Jv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597527941032	Marionette	INFO	Listening on port 55161
+1597527941180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597527984948	Marionette	INFO	Stopped listening on port 55161
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597527989440	geckodriver	INFO	Listening on 127.0.0.1:55230
+1597527992485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofileBttaVd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597527994401	Marionette	INFO	Listening on port 55238
+1597527994492	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597528133077	geckodriver	INFO	Listening on 127.0.0.1:55322
+1597528136121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofileQ0BxEl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597528138078	Marionette	INFO	Listening on port 55330
+1597528138129	Marionette	WARN	TLS certificate errors will be ignored for this session
