@@ -3086,3 +3086,24 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1597528138078	Marionette	INFO	Listening on port 55330
 1597528138129	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598399857260	geckodriver	INFO	Listening on 127.0.0.1:61727
+1598399860316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofilenFffav"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598399862864	Marionette	INFO	Listening on port 61735
+1598399862936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598399976701	Marionette	INFO	Stopped listening on port 61735
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598399978469	geckodriver	INFO	Listening on 127.0.0.1:61812
+1598399981514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PICHAU\\AppData\\Local\\Temp\\rust_mozprofile7cFP7R"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598399983636	Marionette	INFO	Listening on port 61820
+1598399984123	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4080, MediaDecoderStateMachine #1] WARNING: Decoder=23ede7b8400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
