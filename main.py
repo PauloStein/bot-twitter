@@ -22,10 +22,5 @@ class TwitterBot:
         password.send_keys(self.password)
         password.send_keys(Keys.RETURN)
         time.sleep(5)
-        test2 = Twitter()
-        test2.follow_tweet('follow', bot)
-
-
-user = TwitterBot('PauloE010102', 'paulotcc321')
-user.login()
-
+        follow_bot = Twitter()
+        follow_bot.find_users('follow', bot)
